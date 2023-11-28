@@ -1,0 +1,66 @@
+@import url(../global/global.css);
+@import url(../icons/fontawesome/css/all.min.css);
+
+.container {
+  background-color: var(--button);
+  width: 100vw;
+  height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+.content {
+  padding: 3rem;
+  background-color: var(--background);
+  width: 50%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  border-radius: 3rem 0rem 0rem 3rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.card{
+    text-align: center;
+    background-color: var(--button);
+    width: 13rem;
+    border-radius: 0.4rem;
+    color: white;
+    padding-bottom: 1rem;
+  
+   
+}
+.card p{ 
+    color: var(--color);
+    width: 100%;
+     background-color: var(--background);
+     border: 1px solid var(--button);
+     border-radius: 0.4rem 0.4rem 0px 0px ;
+}
+.card h3{
+    margin: 1rem;
+}
+
+.add i {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--button);
+    cursor: pointer;
+}
+.add i:hover{
+    transition: 0.3s;
+    color: rgb(7, 102, 112);
+}
+
+table{
+    margin: auto;
+    width: 90%;
+    background-color: aquamarine;
+
+}
